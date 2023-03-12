@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding:10;
+    font-family: sans-serif;
+}
+
+
+header {
+    position: absolute;
+    background-color: #128C7E;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 80%;
+    overflow-y: scroll; 
+ 
+}
+
+.message {
+    margin-bottom: 10px;
+    background-color: #F1F0F0;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 50%;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+}
+
+.message.sent {
+    align-self: flex-end;
+    background-color: #DCF8C6;
+}
+
+.input-container {
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    right: 0;
+    background-color: #F1F0F0;
+    padding: 20px;
+}
+
+.input-container input {
+    width: 85%;
+    border: none;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+.enviar{
+    display: none
+
+}
