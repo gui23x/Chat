@@ -55,31 +55,3 @@ body {
     margin-bottom: 10px;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 0 20px;
-}
-
-.nav__item {
-    flex: 1;
-    text-align: center;
-    color: #999;
-    font-size: 20px;
-    transition: color 0.3s ease;
-}
-
-.nav__item:hover {
-    color: #000;
-}
